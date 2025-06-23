@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <title>Login</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="body">
+  <div class="container my-5 text-center">
+    <div class="items m-auto w-75 p-5 ">
+      <h1>Smart Login System</h1>
+      <form id="loginForm">
+        <div class="form-floating mb-3">
+          <input type="email" class="form-control" id="loginEmail" placeholder="name@example.com">
+          <label for="loginEmail">Email address</label>
+        </div>
+        <div class="form-floating">
+          <input type="password" class="form-control" id="loginPassword" placeholder="Password">
+          <label for="loginPassword">Password</label>
+        </div>
+        <p id="incorrect" class="text-danger fw-bold mt-2"></p>
+        <button type="submit" class="btn btn-outline-info w-100 my-3">Login</button>
+        <p class="text-white">Don’t have an account? <a class='text-white' href='signup.html'>Sign Up</a></p>
+      </form>
+    </div>
+  </div>
+
+  <!-- أهم حاجة يكون السكربت في الآخر -->
+  <script src="main.js" defer></script>
+</body>
+</html>
