@@ -17,18 +17,21 @@ label{
 h1{
     color:  #17a2b8;;
 }
+/* الوضع العادي قبل الكتابة */
 .form-control {
-  background-color: #fff !important;
-  color: #000 !important;
+  background-color: #24353F; /* أزرق */
+  color: #fff;
 }
 
 .form-control::placeholder {
-  color: #6c757d; 
+  color: #e0e0e0; /* رمادي فاتح للـ placeholder */
 }
 
+/* عند الضغط أو الكتابة */
 .form-control:focus {
   background-color: #fff !important;
   color: #000 !important;
-  border-color: #0dcaf0; 
-  box-shadow: 0 0 0 0.25rem rgba(13, 202, 240, 0.25); 
+  border-color: #0dcaf0;
+  box-shadow: 0 0 0 0.25rem rgba(13, 202, 240, 0.25);
 }
+
